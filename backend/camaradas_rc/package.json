@@ -1,0 +1,23 @@
+{
+  "name": "backend_camaradas",
+  "version": "1.0.0",
+  "description": "backend del proyecto camaradas rc",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Cacicus Tech",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "socket.io": "^4.4.0"
+  }
+}
